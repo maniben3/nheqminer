@@ -152,15 +152,7 @@ set(SOURCE_FILES
     # make same path on windows
     #blake shared
     # src
-    blake2/blake2bx.cpp
-    # headers
-    blake2/blake2.h
-    blake2/blake2b-load-sse2.h
-    blake2/blake2b-load-sse41.h
-    blake2/blake2b-round.h
-    blake2/blake2-config.h
-    blake2/blake2-impl.h
-    blake2/blake2-round.h
+   
     )
 
 #set(LIBS ${LIBS} ${Threads_LIBRARIES} ${Boost_LIBRARIES})
